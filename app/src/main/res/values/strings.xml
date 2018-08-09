@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">RegisterCall - Parcelable</string>
+
+    <!-- Generic strings -->
+    <string name="bt_register">Register</string>
+    <string name="toast_complete_all_fields">Complete all fields!</string>
+
+    <!-- MainActivity strings -->
+    <string name="ma_tv_loading">Loading</string>
+
+    <!-- LoginActivity strings -->
+    <string name="la_et_login">Login</string>
+    <string name="la_et_password">Password</string>
+    <string name="la_bt_sign_in">Sign In</string>
+    <string name="la_tv_retrieve_access">Retrieve access</string>
+    <string name="la_toast_invalid_informations">Invalid login and password!</string>
+    <string name="la_alert_title">Account informations</string>
+    <string name="la_alert_message">Login: adm1\nPassword: adm1</string>
+
+    <!-- HomeActivity strings -->
+    <string name="ha_bt_dial">Dial</string>
+    <string name="ha_toast_welcome_msg">Welcome</string>
+
+    <!-- DialActivity strings -->
+    <string name="da_bt_call">Call</string>
+    <string name="da_et_phone">Phone</string>
+    <string name="da_toast_warning">You have denied this permission before! To make a call we need this permission!</string>
+    <string name="da_toast_phone">Fill the phone!</string>
+
+    <!-- RegisterActivity strings -->
+    <string name="ra_tv_car">Car</string>
+    <string name="ra_et_model">Model</string>
+    <string name="ra_tv_brand">Brand</string>
+    <string-array name="ra_sp_brand">
+        <item>Select</item>
+        <item>Ford</item>
+        <item>Chevrolet</item>
+        <item>Volkswagen</item>
+        <item>Fiat</item>
+        <item>Renault</item>
+    </string-array>
+    <string name="ra_et_year">Year</string>
+    <string name="ra_alert_title">Car informations</string>
+</resources>

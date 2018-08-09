@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RegisterCall - Parcelable</string>
+
+    <!-- Generic strings -->
+    <string name="bt_register">Cadastrar</string>
+    <string name="toast_complete_all_fields">Complete todos os campos!</string>
+
+    <!-- MainActivity strings -->
+    <string name="ma_tv_loading">Carregando</string>
+
+    <!-- LoginActivity strings -->
+    <string name="la_et_login">Login</string>
+    <string name="la_et_password">Senha</string>
+    <string name="la_bt_sign_in">Entrar</string>
+    <string name="la_tv_retrieve_access">Recuperar acesso</string>
+    <string name="la_toast_invalid_informations">Login e senha inválidos!</string>
+    <string name="la_alert_title">Informações da conta</string>
+    <string name="la_alert_message">Login: adm1\nSenha: adm1</string>
+
+    <!-- HomeActivity strings -->
+    <string name="ha_bt_dial">Discar</string>
+    <string name="ha_toast_welcome_msg">Bem vindo</string>
+
+    <!-- DialActivity strings -->
+    <string name="da_bt_call">Ligar</string>
+    <string name="da_et_phone">Telefone</string>
+    <string name="da_toast_warning">Você recusou esta permissão antes! Para fazer uma ligação nós precisamos dessa permissão!</string>
+    <string name="da_toast_phone">Preencha o telefone!</string>
+
+    <!-- RegisterActivity strings -->
+    <string name="ra_tv_car">Carro</string>
+    <string name="ra_et_model">Modelo</string>
+    <string name="ra_tv_brand">Marca</string>
+    <string-array name="ra_sp_brand">
+        <item>Selecione</item>
+        <item>Ford</item>
+        <item>Chevrolet</item>
+        <item>Volkswagen</item>
+        <item>Fiat</item>
+        <item>Renault</item>
+    </string-array>
+    <string name="ra_et_year">Ano</string>
+    <string name="ra_alert_title">Informações do carro</string>
+</resources>
