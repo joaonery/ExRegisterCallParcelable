@@ -14,6 +14,7 @@
     <string name="la_et_password">Senha</string>
     <string name="la_bt_sign_in">Entrar</string>
     <string name="la_tv_retrieve_access">Recuperar acesso</string>
+    <string name="la_tv_bt_retrieve">Recuperar</string>
     <string name="la_toast_invalid_informations">Login e senha inválidos!</string>
     <string name="la_alert_title">Informações da conta</string>
     <string name="la_alert_message">Login: adm1\nSenha: adm1</string>

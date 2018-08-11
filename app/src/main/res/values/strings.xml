@@ -13,6 +13,7 @@
     <string name="la_et_password">Password</string>
     <string name="la_bt_sign_in">Sign In</string>
     <string name="la_tv_retrieve_access">Retrieve access</string>
+    <string name="la_tv_bt_retrieve">Retrieve</string>
     <string name="la_toast_invalid_informations">Invalid login and password!</string>
     <string name="la_alert_title">Account informations</string>
     <string name="la_alert_message">Login: adm1\nPassword: adm1</string>

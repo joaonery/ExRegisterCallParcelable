@@ -1,5 +1,6 @@
 package com.joaonery.exregistercallparcelable;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -53,6 +54,13 @@ public class LoginActivity extends AppCompatActivity {
                 AlertDialog.Builder msg = new AlertDialog.Builder(LoginActivity.this);
                 msg.setTitle(getResources().getString(R.string.la_alert_title));
                 msg.setMessage(getResources().getString(R.string.la_alert_message));
+                msg.setNeutralButton(getResources().getString(R.string.la_tv_bt_retrieve), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        etLogin.setText("adm1");
+                        etPassword.setText("adm1");
+                    }
+                });
                 msg.show();
             }
         });

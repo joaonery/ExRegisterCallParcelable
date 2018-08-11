@@ -21,6 +21,7 @@ public class HomeActivity extends AppCompatActivity {
 
         if(getIntent().getParcelableExtra("p") != null){
             Person p = (Person) getIntent().getParcelableExtra("p");
+            p.setContext(HomeActivity.this);
 
             Toast.makeText(getBaseContext(), getResources().getString(R.string.ha_toast_welcome_msg) + ": " + p.getLogin(), Toast.LENGTH_LONG).show();
         }

@@ -68,6 +68,14 @@ public class Person implements Parcelable{
         this.password = password;
     }
 
+    public Context getContext() {
+        return context;
+    }
+
+    public void setContext(Context context) {
+        this.context = context;
+    }
+
     @Override
     public String toString() {
         return  context.getResources().getString(R.string.la_et_login) + ": " + login + "\n" +
